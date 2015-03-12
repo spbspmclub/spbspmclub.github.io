@@ -1,8 +1,3 @@
 name: SPB SPM Club
 markdown: redcarpet
 pygments: true
-
-collections:
- meetups:
-  output: true
-  permalink: /meetups/:path/

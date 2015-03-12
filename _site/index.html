@@ -6,10 +6,10 @@
         <title>SPB SPM Club</title>
 
         <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
 
         <!-- Custom CSS -->
-        <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="/css/custom.css"  media="screen,projection"/>
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -67,16 +67,62 @@
 </div>
 <div class="container">
   <h6>ВСТРЕЧИ</h6>
+  <div class="divider"></div>
+  <div class="row">
+    
+    <div class="col s2">
+    	<p>26 Mar 2015<br>
+    </div>
+    <div class="col s7">
+    	<p><a href="/post/2015/03/26/meetup_19.html">SPB SPM Meetup - March'2015</a> <br>Мартовская встреча Петербургского клуба менеджеров проектов в IT. </p>
+    </div>
+    <div class="col s3">
+    	<!--
+    	<a href="#modal1" class="waves-effect waves-light btn modal-trigger" target="_blank">Регистрация</a>
+    -->
+    </div>
+    
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <a href="https://piter-united.timepad.ru/event/190010/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script type="text/javascript" defer="defer" data-timepad-customized="2669" data-twf2s-event--id="190010" data-timepad-widget-v2="event_register" src="https://timepad.ru/js/tpwf/loader/min/loader.js"></script>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="waves-effect waves-green btn-flat modal-action modal-close">ОТМЕНА</a>
+    </div>
+  </div>
+      	
+  <!--
+  <div class="row">
+	  <div class="col s6">
+		  <div class="card">
+		    <div class="card-image waves-effect waves-block waves-light">
+		      <img class="activator" src="images/office.jpg">
+		    </div>
+		    <div class="card-content">
+		      <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
+		      <p><a href="#">This is a link</a></p>
+		    </div>
+		    <div class="card-reveal">
+		      <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
+		      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+		    </div>
+		  </div>
+		</div>
+	</div>
   <div class="row">
   	<div>
   		
     	<div class="card-panel">
       	<h5>26 Mar 2015</h5>
-      	<p><a href="/meetup/2015/03/26/meetup_19.html">SPM Meetup</a></li></p>
+      	<p><a href="/post/2015/03/26/meetup_19.html">SPB SPM Meetup - March'2015</a></li></p>
     	</div>
     	
   	</div>
 	</div>
+-->
 </div>
 
 
@@ -130,7 +176,7 @@
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
 
     <script type="text/javascript">
     $(".button-collapse").sideNav();
@@ -139,6 +185,13 @@
     <script type="text/javascript">
     $(document).ready(function(){
       $('.parallax').parallax();
+    });
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+      $('.modal-trigger').leanModal();
     });
     </script>
 

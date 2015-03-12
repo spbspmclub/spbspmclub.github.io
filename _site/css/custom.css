@@ -44,3 +44,16 @@ a.join{
 	font-weight: normal;
 	font-size: 18px;
 }
+
+.card{
+	padding: 20px 20px;
+}
+
+.post{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.page-footer{
+	margin-top: 40px;
+}
