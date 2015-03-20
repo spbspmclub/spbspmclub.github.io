@@ -14,7 +14,8 @@ categories: post
 	<ul>
 		<li>Дата: 26 марта 2015 (четверг)</li>
 		<li>Время: с 19.00 до 22.30</li>
-		<li>Место: … уточняется … (если у кого есть предложения — Welcome)</li>
+		<li>Место: пл. Карла Фаберже д.8/2. Офис компании SEMrush, 7 этаж.</li>
+		<li>5 минут от м. Ладожская. БЦ Золотая долина.</li>
 	</ul>
 </blockquote>
 <br>
@@ -31,7 +32,8 @@ categories: post
 Case Study: Иван Селиховкин, любезно подготовил для нас очень интересный менеджерский кейс, который мы и будем решать разбившись на небольшие группы. После чего, презентуем и обсудим получившиеся результаты.
 
 --
-Участие в мероприятии бесплатное, обязательная регистрация:
+Участие в мероприятии бесплатное, обязательная регистрация.
+При себе иметь удостоверение личности, для прохода на территорию БЦ.
 <div class="card">
 	<a href="https://piter-united.timepad.ru/event/190010/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script type="text/javascript" defer="defer" data-timepad-customized="2669" data-twf2s-event--id="190010" data-timepad-widget-v2="event_register" src="https://timepad.ru/js/tpwf/loader/min/loader.js"></script>
 </div>
