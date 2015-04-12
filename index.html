@@ -3,19 +3,18 @@ layout: default
 title: SPB SPM Club
 ---
 
-<a href="https://plus.google.com/u/0/communities/108809460896106613736" class="waves-effect waves-light btn-large join red darken-3" target="_blank">Присоединиться</a>
-
-<div class="parallax-container">
+<div class="parallax-container center">
 	<div class="parallax"><img src="img/banner.png">
 	</div>
+  <a href="https://plus.google.com/u/0/communities/108809460896106613736" class="waves-effect waves-light btn-large join red darken-3" target="_blank">Присоединиться</a>
 </div>
 
 <div class="container">
 	<div class="row">
 		<div class="title-card">
 			<div class="card-panel moto">
-				<h5>SPB SPM Club <span>| Петербургский клуб менеджеров проектов в IT</span></h5>
-				<p>Мы, менеджеры проектов и тимлиды из разных IT-компаний Санкт-Петербурга. <br>Каждый из нас занимается организацией разработки, внедрением или поддержкой программного обеспечения.<br>Мы регулярно встречаемся и обмениваемся нашим опытом и знаниями. Присоединяйся и ты!</p>
+				<h5>SPB SPM Club <span class="hide-on-small-only">| Петербургский клуб менеджеров проектов в IT</span></h5>
+				<p>Мы, менеджеры проектов и тимлиды из разных IT-компаний Санкт-Петербурга. Каждый из нас занимается организацией разработки, внедрением или поддержкой программного обеспечения. Мы регулярно встречаемся и обмениваемся нашим опытом и знаниями. Присоединяйся и ты!</p>
 			</div>
 		</div>
 	</div>
@@ -23,21 +22,21 @@ title: SPB SPM Club
 <div class="container">
   <h6>ВСТРЕЧИ</h6>
   <div class="divider"></div>
+  {% for post in site.posts %}
   <div class="row">
-    {% for post in site.posts %}
-    <div class="col s2">
+    <div class="col s12 m2 l2">
     	<p>{{ post.date | date_to_string }}<br>
     </div>
-    <div class="col s7">
+    <div class="col s12 m7 l7">
     	<p><a href="{{ post.url }}">{{ post.title }}</a> <br>{{post.short_desc}} </p>
     </div>
-    <div class="col s3">
+    <div class="col s12 m3 l3">
     	<!--
     	<a href="#modal1" class="waves-effect waves-light btn modal-trigger" target="_blank">Регистрация</a>
     -->
     </div>
-    {% endfor %}
   </div>
+  {% endfor %}
 
   <!-- Modal Structure -->
   <div id="modal1" class="modal modal-fixed-footer">
