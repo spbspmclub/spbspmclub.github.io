@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  SPB SPM Meetup - April'2015
+title:  SPM Meetup 20
 date:   2015-04-17 19:30:00
-short_desc: Апрельская встреча Петербургского клуба менеджеров проектов в IT.
+short_desc: Коуч-позиция или как эффективно проводить совещания.
 categories: post
 ---
 

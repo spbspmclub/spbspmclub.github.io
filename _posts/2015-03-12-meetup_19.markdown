@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  SPB SPM Meetup - March'2015
+title:  SPM Meetup 19
 date:   2015-03-26 19:00:00
-short_desc: Мартовская встреча Петербургского клуба менеджеров проектов в IT.
+short_desc: Case Study от Ивана Селиховкина.
 categories: post
 ---
 
